@@ -21,7 +21,7 @@ namespace ConsoleApp
         private IServiceProvider _serviceProvider;
         private ICountryServices _countryServices;
 
-        public void buildServiceProvider()
+        public void BuildServiceProvider()
         {
             IServiceCollection serviceCollection = new ServiceCollection();
             serviceCollection.AddTransient<CountryServices>();
